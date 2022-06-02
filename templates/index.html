@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <link href="https://rsms.me/inter/inter-ui.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>AI Web App</title>
+</head>
+
+<body>
+    <!--navigation-->
+    <section class="smart-scroll">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <a class="navbar-brand heading-black" href="index.html">
+                    Ai Model
+                </a>
+                <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
+                        data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span data-feather="grid"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="#features">Anne</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="#pricing">Alane</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="#faq">Abigail</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="#blog">Millelium</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll d-flex flex-row align-items-center text-white btn-primary" href="#">
+                                <em data-feather="layout" width="18" height="18" class="mr-2"></em>
+                                Upload image
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <!--hero header-->
+    <section class="py-7 py-md-0 bg-hero" id="home">
+        <div class="container">
+            <div class="row vh-md-100">
+                <div class="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center">
+                    <h1 class="heading-black text-capitalize">Upload file and let our Ai do the job</h1>
+                    <p class="lead py-3">Ai Model is cloud SAAS website that makes use of AI to classify an input image of animal into a defined category.</p>
+                    <button class="btn btn-primary d-inline-flex flex-row align-items-center px-2 py-2">
+                        Upload Image Now
+                        <em class="ml-2" data-feather="arrow-right"></em>
+                    </button>
+                    <a href="#" class="btn btn-light px-2 py-2">
+                        Get Result
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--faq section-->
+    <section class="py-5" id="faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto text-center">
+                    <h2>Group 1</h2>
+                    <p class="text-muted lead pb-3">Here is the list of group members and how we proceded.</p>
+
+                    <p class="text-muted lead">Asafoh Brian   FE19A012</p>
+                    <p class="text-muted lead">Abigail Foteh   FE19A004</p>
+                    <p class="text-muted lead">Akwet Larissa Afoh   FE19A008</p>
+                    <p class="text-muted lead">Anyeh Ernest Ndambi   FE19A011</p>
+                    <p class="text-muted lead">Mouaffo Alane Johan   FE17A044</p>
+                    <p class="text-muted lead">Abdulahi Balla Danjuma   FE19A003</p>
+                    <p class="text-muted lead">Ashu Deba Joalice Osoh   FE19A014</p>
+                    <p class="text-muted lead">Ajongafack Zinkeng Mbetem   FE19A007</p>
+                    <p class="text-muted lead">Asonglefack Millenium Nzefe  FE19A015</p>
+                </div>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col-md-6 mx-auto text-center">
+                    <h5 class="mb-4">Thank You</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--***************** MAIN JS *****************-->
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+
+</html>
